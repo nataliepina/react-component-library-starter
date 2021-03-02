@@ -1,8 +1,7 @@
-import {select, text} from '@storybook/addon-knobs';
-import {storiesOf} from '@storybook/react';
+import { select, text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-
-import {SampleComponent} from '../src/SampleComponent';
+import { SampleComponent } from '../src/SampleComponent';
 
 storiesOf('Sample Component', module).add(
   'Default',
@@ -21,5 +20,5 @@ storiesOf('Sample Component', module).add(
       />
     );
   },
-  {notes: 'Here are some notes about the component.'}
+  { notes: 'Here are some notes about the component.' }
 );

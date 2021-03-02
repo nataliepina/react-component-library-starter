@@ -1,7 +1,7 @@
 {
-  "name": "placeholder",
-  "version": "",
-  "description": "",
+  "name": "lavenderui",
+  "version": "1.0.0",
+  "description": "Calming Component Library",
   "main": "build/release/index.js",
   "types": "build/release/index.d.ts",
   "files": [
@@ -27,7 +27,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "author": "Opender Singh",
+  "author": "Natalie Pina",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.3",
